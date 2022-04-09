@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Search</title>
+    <link rel="stylesheet" href="advanced.css" />
+  </head>
+  <body>
+    <header class="header">
+      <span class="google"></span>
+      <a href="index.html" class="first-link">Home </a>
+      <svg class="link" focusable="false" viewBox="0 0 24 24">
+        <path
+          d="M6,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM6,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM12,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM16,6c0,1.1 0.9,2 2,2s2,-0.9 2,-2 -0.9,-2 -2,-2 -2,0.9 -2,2zM12,8c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,14c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2zM18,20c1.1,0 2,-0.9 2,-2s-0.9,-2 -2,-2 -2,0.9 -2,2 0.9,2 2,2z"
+        ></path>
+      </svg>
+      <a href="#" class="link signin">Sign in</a>
+    </header>
+    <div class="title">Advanced Search</div>
+    <form action="https://google.com/search">
+      <span>Find Pages with...</span>
+
+      <div>
+        <div class="label"><label for="as_q">all these words:</label></div>
+        <input type="text" name="as_q" autocomplete="off" />
+      </div>
+
+      <div>
+        <div class="label">
+          <label for="as_epq">this exact word or phrase:</label>
+        </div>
+        <input type="text" name="as_epq" autocomplete="off" />
+      </div>
+
+      <div>
+        <div class="label">
+          <label for="as_oq">any of these words:</label>
+        </div>
+
+        <input type="text" name="as_oq" autocomplete="off" />
+      </div>
+      <div>
+        <div class="label">
+          <label for="as_eq">none of these words:</label>
+        </div>
+
+        <input type="text" name="as_eq" autocomplete="off" />
+      </div>
+      <div class="submit-button">
+        <input type="submit" class="button" value="Advanced Search" />
+      </div>
+    </form>
+  </body>
+</html>
+
