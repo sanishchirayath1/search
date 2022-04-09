@@ -182,3 +182,15 @@ span.camera {
   padding: 10px;
   cursor: pointer;
 }
+
+.search-button {
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 0;
+}
+.search-button > svg {
+  width: 24px;
+  height: 24px;
+  margin: 0;
+}
