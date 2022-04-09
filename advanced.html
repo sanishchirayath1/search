@@ -17,11 +17,18 @@
     </header>
     <div class="title">Advanced Search</div>
     <form action="https://google.com/search">
-      <span>Find Pages with...</span>
+      <div>
+        <span class="form-title">Find Pages with...</span>
+        <span class="example-title">To do this in the search box.</span>
+      </div>
 
       <div>
         <div class="label"><label for="as_q">all these words:</label></div>
         <input type="text" name="as_q" autocomplete="off" />
+        <div class="examples">
+          Type the important words:&nbsp
+          <span>tri-colour rat terrier</span>
+        </div>
       </div>
 
       <div>
@@ -29,6 +36,10 @@
           <label for="as_epq">this exact word or phrase:</label>
         </div>
         <input type="text" name="as_epq" autocomplete="off" />
+        <div class="examples">
+          Put exact words in quotes:&nbsp
+          <span>"rat terrier"</span>
+        </div>
       </div>
 
       <div>
@@ -37,6 +48,10 @@
         </div>
 
         <input type="text" name="as_oq" autocomplete="off" />
+        <div class="examples">
+          Type <span>&nbspOR&nbsp</span> between all the words you want:&nbsp
+          <span>miniature OR standard</span>
+        </div>
       </div>
       <div>
         <div class="label">
@@ -44,6 +59,10 @@
         </div>
 
         <input type="text" name="as_eq" autocomplete="off" />
+        <div class="examples">
+          Put a minus sign just before words that you don't want:&nbsp
+          <span>-rodent, -"Jack Russell"</span>
+        </div>
       </div>
       <div class="submit-button">
         <input type="submit" class="button" value="Advanced Search" />
@@ -51,4 +70,3 @@
     </form>
   </body>
 </html>
-
